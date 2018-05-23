@@ -6,7 +6,7 @@
 LOGNAME="pihotspot.log"
 # Path where the logfile will be stored
 # be sure to add a / at the end of the path
-LOGPATH="/var/log/"
+LOGPATH="$(pwd)"
 # Password for user root (MySql/MariaDB not system)
 MYSQL_PASSWORD="pihotspot"
 # Secret word for FreeRadius
